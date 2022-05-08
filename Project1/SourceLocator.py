@@ -81,9 +81,9 @@ class SourceLocator(object):
         self.eps = 1e-3
 
     def __call__(self, p, plot=True):
-        r0 = np.exp(-p[0]/20 + self.punit/20)
-        r1 = np.exp(-p[1]/20 + self.punit/20)
-        r2 = np.exp(-p[2]/20 + self.punit/20)
+        r0 = np.pow(10, -p[0]/20 + self.punit/20)
+        r1 = np.pow(10, -p[1]/20 + self.punit/20)
+        r2 = np.pow(10, -p[2]/20 + self.punit/20)
         print("distance : ",r0,r1,r2)
         circle0 = [self.recv[0][0], self.recv[0][1], r0]
         circle1 = [self.recv[1][0], self.recv[1][1], r1]
