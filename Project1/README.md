@@ -1,4 +1,7 @@
 # Project 1 iBeacon Positioning
+```
+Group Member: wyZ, zjZ, yfC, ypL
+```
 - index.js
   - HTTPServer ----- receive, retrieve and insert
 - SoueceLocator.py
