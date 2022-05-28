@@ -10,5 +10,6 @@ chmod +x setup.sh
 ## Usage
 ```bash
 chmod + x run.sh
+# source video in src/ and output in result/
 ./run.sh ${name of video without suffix} ${aspect_ratio} 
 ```
